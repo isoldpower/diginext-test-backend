@@ -20,7 +20,7 @@ pip install --upgrade pip
 ```shell
 pip install -r requirements.txt
 ```
-4) upgrade dependencies
+4) (optional) upgrade dependencies
 ```python
 import pkg_resources
 from subprocess import call
@@ -34,6 +34,7 @@ call("pip install --upgrade " + ' '.join(packages), shell=True)
 python src/manage.py makemigrations
 python src/manage.py migrate
 ```
+7) provide `.env` file with `SECRET_KEY` as well as all database data required (see section below)
 ---
 ### In order to provide environmental variables:
 1) Create `.env` file
