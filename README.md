@@ -64,3 +64,6 @@ python manage.py startapp [name]
 ```
 3) in `apps.[name].apps.Config` config, add `apps.` prefix to app name
 4) add app to `src.config.settings.py` `INSTALLED_APPS`
+---
+Don't forget to change CORS_ALLOWED_ORIGIN in `config/settings.py` if you start 
+frontend on any port other than 3000

@@ -12,6 +12,7 @@ DEBUG = os.environ.get('DEBUG') == 'True'
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
 ]
+
 ALLOWED_HOSTS = ['*']
 
 

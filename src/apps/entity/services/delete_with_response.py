@@ -1,7 +1,7 @@
 from django.http import HttpResponse
 from rest_framework import status
 
-from apps.entity.models import CoordinateEntity
+from ..models import CoordinateEntity
 
 
 def get_delete_response(self):

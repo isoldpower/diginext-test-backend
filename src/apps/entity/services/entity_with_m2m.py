@@ -1,4 +1,4 @@
-from apps.entity.models import Label, CoordinateEntity
+from ..models import Label, CoordinateEntity
 
 
 def create_with_m2m(self, validated_data):
